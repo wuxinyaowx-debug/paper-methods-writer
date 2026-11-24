@@ -1,0 +1,23 @@
+{
+  "case_id": "<与 /input/case.json 一致>",
+  "generated_by": "methods-experiments-writer",
+  "elements": [
+    {
+      "id": "param-001",
+      "category": "parameter | step | setup | dataset | baseline | reproducibility",
+      "name": "learning_rate",
+      "value": "0.001",
+      "unit": "",
+      "scope": "优化器 AdamW，训练阶段",
+      "status": "confirmed | inferred | conflict | missing",
+      "sources": [
+        {
+          "file": "configs/train.yaml",
+          "location": "键路径 optimizer.lr（第 12 行）",
+          "raw_value": "0.001"
+        }
+      ],
+      "note": "冲突时在此并列说明各来源取值；推断时写明推理链"
+    }
+  ]
+}
